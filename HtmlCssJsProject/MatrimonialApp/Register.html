@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registraion Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <form action="ThankYou.html" method="post ">
+      <h1>Registration Form</h1>
+      <p>All Fields are mandatory</p>
+      <label for="name">Name  </label>
+      <input id="name" type="text" name="username" value="" placeholder="Enter your name" required><br><br>
+      <label for="email">Email id  </label>
+      <input id ="email" type="email" name="email" value="" placeholder="Enter your email id" required><br><br>
+      <label for="age">Age  </label>
+      <input id="age" type="text" name="age" value="" placeholder="Enter your age" required><br>
+      <h2>Are you intrested in Dating</h2>
+      <label for="y">Yes</label>
+      <input id="y" type="radio" name="Dating" value="yes">
+      <label for="n">No</label>
+      <input id="n" type="radio" name="Dating" value="no"><br>
+      <h2>Your Expections Like</h2>
+      <select name="expections">
+        <option value="katrina">Katrina Kaif</option>
+        <option value="disha">Disha Patani</option>
+        <option value="sara">Sara Ali Khan</option>
+        <option value="sunny">Sunny Leone</option>
+        <option value="alia">Alia Bhatt</option>
+        <option value="karina">Karina Kapoor</option>
+      </select><br>
+      <h2>How many marriages you want</h2>
+      <select  name="numbers">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select><br>
+      <h2>Are you heavy alcholic</h2>
+      <input type="checkbox" name="Alcholic" value="yes">Yes
+      <input type="checkbox" name="Alcholic" value="no">No
+      <input type="checkbox" name="Alcholic" value="weekends">Weekends<br>
+      <h2>Your Preferances and Extra Informations</h2>
+      <textarea name="extrainfo" rows="8" cols="80"></textarea><br>
+
+      <input type="submit" name="Register" value="Register">
+
+
+    </form>
+
+  </body>
+</html>

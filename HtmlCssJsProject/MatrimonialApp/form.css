@@ -1,0 +1,17 @@
+html{
+  text-align:center;
+}
+ul{
+  text-align:left;
+}
+body{
+  background:black;
+  color:green;
+}
+img{
+  border:5px white groove;
+}
+form{
+  text-align:center;
+  border:5px yellow dotted;
+}

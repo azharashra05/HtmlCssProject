@@ -1,0 +1,15 @@
+h1,li{
+  font-family:Papyrus;
+  font-size:30px;
+  text-decoration:underline;
+}
+p{
+  font-size:30px;
+  font-weight:lighter;
+  line-height:1.5;
+  font-family: 'Great Vibes', cursive;
+}
+p:nth-of-type(3)
+{
+  font-family: 'Pacifico', cursive;
+}

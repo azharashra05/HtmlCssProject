@@ -1,0 +1,43 @@
+body{
+  background:#bdc646;
+}
+h2{
+  color:yellow;
+}
+li{
+  color:#3232a8;
+}
+p{
+  background:white;
+}
+input{
+  border:2px solid red;
+}
+.p1{
+  background:blue;
+  color:white;
+}
+#p2{
+  border:5px dashed orange;
+  }
+input[type="text"]{
+  background:green;
+}
+input:checked
+{
+  margin-left:200px;
+}
+label{
+  text-transform:uppercase;
+}
+#p2::first-letter{
+  color:green;
+  font-size:100px;
+}
+h1:hover{
+  color:white;
+  border:10px solid red;
+}
+a:visited{
+  color:white;
+}
